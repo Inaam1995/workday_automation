@@ -1,13 +1,12 @@
 # Workday Job Application Automation Tool
 
-An automated job application tool that uses Selenium WebDriver and OpenAI's GPT models to intelligently fill out Workday job application forms. The tool processes job URLs from a CSV file and automatically applies to jobs using your profile information.
+An automated job application tool that uses Selenium WebDriver to intelligently fill out Workday job application forms. The tool processes job URLs from a CSV file and automatically applies to jobs using your profile information.
 
 ## Features
 
-- **Automated Form Filling**: Intelligently fills out Workday job application forms using AI
+- **Automated Form Filling**: Intelligently fills out Workday job application forms
 - **Batch Processing**: Process multiple job applications from a CSV file
 - **Status Tracking**: Tracks application status (pending, applied, failed, error) in CSV
-- **AI-Powered**: Uses OpenAI GPT models to understand and respond to application questions
 - **Resume Integration**: Automatically uploads and references your resume
 - **Human-like Behavior**: Includes random delays and human-like interactions to avoid detection
 - **Error Handling**: Comprehensive error handling and logging
@@ -16,7 +15,6 @@ An automated job application tool that uses Selenium WebDriver and OpenAI's GPT 
 
 - Python 3.8 or higher
 - Firefox browser installed
-- OpenAI API key
 - Valid Workday account credentials
 
 ## Installation
@@ -108,11 +106,7 @@ TESTING=True
 
 2. **Use strong passwords**: Ensure your Workday password is secure
 
-3. **Limit API key permissions**: Use OpenAI API keys with minimal required permissions
-
-4. **Regular key rotation**: Periodically rotate your OpenAI API key
-
-5. **File permissions**: Restrict .env file access:
+3. **File permissions**: Restrict .env file access:
    ```bash
    chmod 600 .env  # Read/write for owner only
    ```
@@ -120,12 +114,9 @@ TESTING=True
 #### Example .env File:
 
 ```env
-# OpenAI Configuration
-OPENAI_API_KEY='sk-proj-abcd1234efgh5678ijkl9012mnop3456qrst7890uvwx'
-
 # Workday Credentials
-USER_EMAIL='john.doe@email.com'
-USER_PASSWORD='MySecurePassword123!'
+USER_EMAIL='your-email@example.com'
+USER_PASSWORD='your-secure-password'
 
 # Firefox Profile (macOS example)
 PROFILE_PATH='/Users/johndoe/Library/Application Support/Firefox/Profiles/abc123def.default-release'
@@ -136,7 +127,6 @@ TESTING=True
 
 #### Troubleshooting .env Issues:
 
-- **"API key not found" error**: Verify OPENAI_API_KEY is set correctly
 - **Login failures**: Check USER_EMAIL and USER_PASSWORD are correct
 - **Profile errors**: Ensure PROFILE_PATH points to valid Firefox profile directory
 - **Variables not loading**: Ensure .env file is in the project root directory

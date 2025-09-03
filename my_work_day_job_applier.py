@@ -30,9 +30,6 @@ TESTING = bool(os.getenv('TESTING', 'False')=='True')
 
 PROFILE_DATA = Config('data/profile.json').load_profile()
 
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-LLM_APPLIER = None
-
 BROWSER="CHROME" # FIREFOX
 
 class ColoredFormatter(logging.Formatter):
@@ -1118,8 +1115,6 @@ def process_the_elements(driver, page=None):
     """
     Process the elements on the page
     """
-    # global LLM_APPLIER
-
     if page == 1:
         try:
             WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.XPATH, '//div[@role="group"]')))
