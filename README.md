@@ -230,5 +230,3 @@ https://company3.wd1.myworkdaysite.com/job3,pending,,
 - The tool will automatically add and update the status columns as it processes applications
 - Make sure each URL is a direct link to a Workday job application page
 - You can start with just the `jobs` column - the other columns will be created automatically
-
-**Example Excel structure**:
