@@ -71,17 +71,6 @@ TESTING=True
 
 #### Environment Variable Details:
 
-**OPENAI_API_KEY** (Required)
-- **Purpose**: Enables AI-powered form filling and question answering
-- **How to get**: 
-  1. Visit [OpenAI Platform](https://platform.openai.com/api-keys)
-  2. Sign up or log in to your account
-  3. Navigate to "API Keys" section
-  4. Click "Create new secret key"
-  5. Copy the generated key (starts with 'sk-')
-- **Security**: Keep this key secure and never share it publicly
-- **Cost**: OpenAI charges per API usage - monitor your usage on their dashboard
-
 **USER_EMAIL** (Required)
 - **Purpose**: Your Workday account email for automatic login
 - **Format**: Must be a valid email address
