@@ -1,0 +1,174 @@
+{
+  "email": "sample@gmail.com",
+  "complete_name": "Ali Haider",
+  "first_name": "Ali",
+  "last_name": "Haider",
+  "first_name_local": "Ali",
+  "address_line_1": "Charlotte",
+  "address_line_2": "NC",
+  "address_line_3": "",
+  "address_state": "North Carolina",
+  "address_city": "Charlotte",
+  "country": "United States of America",
+  "address_postal_code": "28202",
+  "phone_country_code": "+1",
+  "phone_number": "12345678",
+  "linkedin_url": "https://www.linkedin.com/in/ali-haider",
+  "github_url": "https://github.com/MuhammadAli4",
+  "personal_website": "https://muhammadali4.github.io",
+  "resume_path": "data/resume.pdf",
+  "years_of_experience": "5+",
+  "work_experiences": [
+    {
+      "company": "Bank of America",
+      "start_year": 2024,
+      "start_month": 2,
+      "end_year": 2024,
+      "end_month": 12,
+      "job_title": "Senior Data Scientist",
+      "location": "Charlotte, North Carolina",
+      "role_description": "Developed a GenAI-powered search platform using Retrieval-Augmented Generation (RAG), document retrieval pipelines, and chatbot interfaces resulting in 45% increase in answer accuracy and 60% reduction in response time. | Fine-tuned Large Language Models (LLMs) using LoRA and prompt tuning achieving 35% improvement in answer relevancy and 25% reduction in hallucinations. | Applied advanced NLP techniques (NER, topic modeling, intent classification) to extract real-time insights from client servicing conversations. | Designed evaluation frameworks and human-in-the-loop pipelines for production-grade LLM responses."
+    },
+    {
+      "company": "Lowe's",
+      "start_year": 2022,
+      "start_month": 2,
+      "end_year": 2024,
+      "end_month": 1,
+      "job_title": "Data Scientist",
+      "location": "Charlotte, North Carolina",
+      "role_description": "Implemented sentiment analysis using fine-tuned BERT models achieving 92% classification accuracy and 25% boost in customer satisfaction scores. | Built intent detection systems leveraging transformer-based architectures for intelligent routing and faster query resolution. | Designed Market Mix Optimization framework resulting in 12% uplift in ROI on $900M annual marketing spend. | Trained regression models for sales prediction during extreme weather across 3,000 stores and 30,000 assortments using K-Means clustering and advanced feature engineering."
+    },
+    {
+      "company": "HTN Networks Inc Cisco",
+      "start_year": 2020,
+      "start_month": 4,
+      "end_year": 2022,
+      "end_month": 1,
+      "job_title": "Data Scientist",
+      "location": "Irvine, California",
+      "role_description": "Developed reinforcement learning and ensemble machine learning models to identify malicious network traffic achieving 97% detection accuracy, 42% reduction in false positives, and 35% improvement in response time. | Implemented post-deployment checks including data drift monitoring to ensure ongoing model effectiveness. | Enhanced security measures through advanced threat detection algorithms."
+    },
+    {
+      "company": "NC State University",
+      "start_year": 2017,
+      "start_month": 8,
+      "end_year": 2018,
+      "end_month": 1,
+      "job_title": "Graduate Research Assistant",
+      "location": "Raleigh, North Carolina",
+      "role_description": "Contributed to sustainability research lab applying ANOVA and ARIMA for trend forecasting to analyze environmental data trends for impact assessments. | Utilized statistical methods to derive insights improving environmental impact assessments and prediction reliability."
+    },
+    {
+      "company": "Istanbul Sehir University",
+      "start_year": 2015,
+      "start_month": 9,
+      "end_year": 2017,
+      "end_month": 5,
+      "job_title": "Teaching Assistant",
+      "location": "Istanbul, Turkey",
+      "role_description": "Supported undergraduate instruction through grading, tutoring, and leading discussion sessions. | Led Python and SQL lab sessions improving student coding proficiency and understanding for industrial engineering and machine learning assignments."
+    },
+    {
+      "company": "Lucky Cement Limited",
+      "start_year": 2013,
+      "start_month": 9,
+      "end_year": 2015,
+      "end_month": 9,
+      "job_title": "Supply Chain Officer",
+      "location": "Karachi, Pakistan",
+      "role_description": "Reduced procurement lead time by streamlining processes while leveraging strong negotiation, management, and communication skills to enhance supply chain efficiency."
+    }
+  ],
+  "skills": [
+    "Machine Learning (ML)",
+    "Deep Learning",
+    "Statistics",
+    "Natural Language Processing (NLP)",
+    "Computer Vision",
+    "Python",
+    "Data Science",
+    "Generative AI",
+    "Large Language Models (LLMs)",
+    "GPT",
+    "Transformers",
+    "Diffusion Models",
+    "Prompt Engineering",
+    "Fine-tuning",
+    "PyTorch",
+    "TensorFlow",
+    "Hugging Face",
+    "Vector Databases (Pinecone, FAISS)",
+    "Retrieval-Augmented Generation (RAG)",
+    "SQL",
+    "Git",
+    "Keras",
+    "scikit-learn"
+  ],
+  "education_details": [
+    {
+      "type": ["Master", "M.S."],
+      "degree": "Master of Science in Operation Research",
+      "institution": "North Carolina State University",
+      "location": "Raleigh, NC",
+      "graduation_date": "Dec 2020",
+      "year": 2020
+    },
+    {
+      "type": ["Master", "M.S."],
+      "degree": "Master of Science in Industrial & System Engineering",
+      "institution": "Istanbul Sehir University",
+      "location": "Istanbul, Turkey",
+      "graduation_date": "Dec 2017",
+      "year": 2017
+    },
+    {
+      "type": ["Bachelor", "B.S.", "B.E."],
+      "degree": "Bachelor of Engineering in Industrial Engineering",
+      "institution": "NED University of Eng and Tech",
+      "location": "Karachi, Pakistan",
+      "graduation_date": "Dec 2013",
+      "year": 2013
+    }
+  ],
+  "projects": [
+    {
+      "title": "Multivariate Time-Series Stock Price Forecasting",
+      "description": "Developed a multivariate time-series forecasting model for stock prices using LSTM and sentiment signals extracted via NLP from financial news headlines. Implemented using TensorFlow and NLTK.",
+      "technologies": ["TensorFlow", "NLTK", "LSTM", "NLP"]
+    },
+    {
+      "title": "Grocery Item Classification CNN",
+      "description": "Trained a convolutional neural network (CNN) on custom image datasets to classify grocery items with real-world camera images. Used data augmentation and batch normalization to improve generalization.",
+      "technologies": ["CNN", "Computer Vision", "Data Augmentation"]
+    },
+    {
+      "title": "Transformer-based Chatbot",
+      "description": "Built a Transformer-based chatbot capable of context retention and semantic understanding using Hugging Face and spaCy; deployed via a lightweight Flask web interface.",
+      "technologies": ["Transformers", "Hugging Face", "spaCy", "Flask"]
+    },
+    {
+      "title": "Conditional GAN for Dataset Augmentation",
+      "description": "Used a conditional Generative Adversarial Network (GAN) to augment imbalanced datasets for classification tasks, improving model accuracy on minority classes by 15%.",
+      "technologies": ["GAN", "Deep Learning", "Data Augmentation"]
+    },
+    {
+      "title": "Deep Q-Network Trading Agent",
+      "description": "Implemented a Deep Q-Network (DQN) agent for simulating equity trading strategies using OpenAI Gym and PyTorch, integrating reward shaping and experience replay for improved learning efficiency.",
+      "technologies": ["DQN", "Reinforcement Learning", "PyTorch", "OpenAI Gym"]
+    }
+  ],
+  "publications": {
+    "count": 7,
+    "description": "Authored 7 peer-reviewed publications in reputable journals, leveraging statistical methods and data science techniques to extract insights and solve real-world problems.",
+    "google_scholar_url": "https://scholar.google.com/citations?user=tq8Rh54AAAAJ&hl=en"
+  },
+  "honors_awards": [
+    {
+      "title": "NC State PhD Fellowship Award",
+      "year": 2017,
+      "description": "A prestigious award granted to a select few pursuing a PhD, recognizing exceptional academic excellence and research potential.",
+      "location": "NC, USA"
+    }
+  ]
+}

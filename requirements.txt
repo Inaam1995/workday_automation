@@ -1,0 +1,7 @@
+selenium
+python-dotenv
+pandas
+beautifulsoup4
+pyyaml
+pypdf
+ipdb
